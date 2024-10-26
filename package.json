@@ -1,0 +1,17 @@
+{
+  "name": "scrappy-2.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node. "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "puppeteer": "^23.6.0",
+    "puppeteer-core": "^23.6.0"
+  }
+}
