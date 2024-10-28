@@ -5,7 +5,7 @@ async function run(){
   try{
     browser = await puppeteer.connect({
 
-      browwserWSEndpoint: `wss://`
+      browserWSEndpoint: `wss://`
     })
 
     return
@@ -15,5 +15,6 @@ async function run(){
   }
   finally{
     await browser?.close()
+    
   }
 }
